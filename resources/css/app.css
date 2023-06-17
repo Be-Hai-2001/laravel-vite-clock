@@ -1,0 +1,82 @@
+.clock{
+    background-color: #0e1526;
+    width: 40rem;
+    height: 50rem;
+    margin-top: 3rem;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+}
+
+.title{
+    height: 8%;
+    color: #72aeef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+#btn-clock{
+    width: 47%;
+    height: 3.5rem;
+    border-radius: 10px;
+    background-color: #f4bf50;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#btn-Scop{
+    margin-left: 1.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 35%;
+    height: 3.5rem;
+    border-radius: 10px;
+    background-color: #818cf8;
+}
+
+.content p{
+    color: #2f70af;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.content p b{
+    color: #72aeef;
+    font-size: 1.5rem;
+    /* text-align: center; */
+}
+.content{
+    margin: auto 2.8rem;
+    margin-top: 4rem;
+}
+
+.clock .time{
+    /* margin: -6rem; */
+}
+
+.clock .time .L{
+    color: #72aeef;
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.clock .time .R{
+    color: #72aeef;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
