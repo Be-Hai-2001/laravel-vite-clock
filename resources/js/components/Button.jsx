@@ -6,9 +6,9 @@ function Button( props ){
     // console.log(timer);
 
     const btnClick = () => {
-
-
+        console.log(props.isTime);
         props.setIsTime(!props.isTime)
+
         if(handleBtn.current % 2 == 0){
             setStatus("Bắt đầu");
             handleBtn.current++;
@@ -18,10 +18,14 @@ function Button( props ){
         }
     }
 
+    const btnScop = ()=>{
+        props.setIsDown(!props.isDown)
+    }
+
     return(
         <div className="btn">
             <button id="btn-clock" onClick={btnClick}>{status}</button>
-            <button id="btn-Scop">Vòng</button>
+            <button id="btn-Scop" onClick={btnScop}>Vòng</button>
         </div>
     )
 }
